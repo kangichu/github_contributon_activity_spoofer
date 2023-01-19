@@ -20,7 +20,7 @@ total_commits = num_days * commits_per_day
 # Loop through the days and commit the code
 for i in range(total_commits):
   # Generate a commit message
-  commit_message = f"Commit {i+1}"
+  commit_message = f"Commit message  {i+1}"
   a = random.randint(1,365)
 
   # Add and commit the code
